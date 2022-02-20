@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+}
+header{
+    color: white;
+    background-color: rgb(66, 3, 66);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+header h1{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 4px;
+}
+.image{
+    max-width: 1200px;
+}
+.image h1{
+    margin-left: 10px;
+    padding: auto;
+    display: inline-block;
+}
+div img{
+    margin-left: 150px;
+    max-width: 400px;
+    display: inline-block;
+    max-height: 400px;
+}
+
+.main-cv{
+    white-space: nowrap;
+}
+.main-cv h3{
+    margin-left: 6px;
+    display: inline-block;
+}
+.main-cv ul{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.more::after{
+    content: '...';
+}
